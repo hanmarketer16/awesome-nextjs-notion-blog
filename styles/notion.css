@@ -497,7 +497,7 @@ svg.notion-page-icon {
   fill: #fff;
 }
 .notion-page-scroller {
-  padding-top: 50px;
+  padding-top: 35px;
 }
 .notion-gallery {
   margin-top: 1rem;
@@ -595,7 +595,7 @@ svg.notion-page-icon {
 }
 @media (max-width: 640px) {
   .notion-search-button {
-    display: none !important;
+    display: block !important;
   }
   .notion-gallery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
