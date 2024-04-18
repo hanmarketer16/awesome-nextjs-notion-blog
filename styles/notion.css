@@ -595,7 +595,7 @@ svg.notion-page-icon {
 }
 @media (max-width: 640px) {
   .notion-search-button {
-    display: block !important;
+    display: flex !important;
   }
   .notion-gallery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
