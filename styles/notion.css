@@ -490,6 +490,7 @@ pre[class*=language-]:after, pre[class*=language-]:before {
   text-align: center;
   justify-content: center !important;
   align-items: center !important;
+  gap: 5px;
 }
 .notion-collection-header-title {
   margin-right: 0;
