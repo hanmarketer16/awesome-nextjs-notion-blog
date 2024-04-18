@@ -99,11 +99,11 @@
 .notion-collection-card {
   border-radius: 10px;
   box-shadow: none;
-  background: #0170dc;
+  background: #00509e;
   color: #000000;
 }
-.notion-collection-card {
-  background: #00509e;
+.notion-collection-card:hover {
+  background: #023b72;
 }
 .notion-collection-card-cover img {
   border-radius: 10px;
