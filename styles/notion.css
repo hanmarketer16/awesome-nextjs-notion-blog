@@ -464,12 +464,18 @@ pre[class*=language-]:after, pre[class*=language-]:before {
 .notion-collection-header-title {
   margin-right: 0;
 }
-.notion-text.notion-block-b71a93e6f4cc41beb44440f5bfd2820e {
+.notion-text {
   margin: 0;
   padding: 0;
 }
 .notion-page.notion-page-has-cover.notion-page-has-icon.notion-page-has-text-icon.notion-full-page.index-page {
   padding-top: 30px;
+}
+.notion-column.notion-block-d82f8aae08ed4526b5dd5e705ff0ae93 {
+
+}
+.notion-hr {
+  display: none;
 }
 @media (max-width: 768px) {
   .notion-page-cover {
