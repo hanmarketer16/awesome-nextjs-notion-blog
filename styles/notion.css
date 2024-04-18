@@ -18,7 +18,7 @@
 }
 
 .index-page {
-  --notion-max-width: 1100px;
+  --notion-max-width: 1300px;
 }
 
 .notion-text {
@@ -66,7 +66,7 @@
 }
 
 .notion-header .nav-header {
-  max-width: 1100px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -159,11 +159,20 @@
 .notion-hr {
   margin: 2em 0;
 }
+@media only screen and (max-width: 1200px) {
+  .notion-gallery-grid {
 
+  }
+}
 @media only screen and (max-width: 920px) {
   .index-page.notion-page {
     padding-left: 2vw;
     padding-right: 2vw;
+  }
+  .notion-gallery-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 2vmin;
+    gap: 2vmin;
   }
 }
 
@@ -172,20 +181,23 @@
     padding-left: 2vw;
     padding-right: 2vw;
   }
+  .notion-gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .notion-search-button {
     display: none !important;
   }
+  .notion-gallery-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-gap: 2vmin;
+    gap: 2vmin;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-  .notion-gallery-grid {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 5vmin;
-    gap: 5vmin;
-  }
 }
 
 .notion .notion-page-icon-cover {
@@ -222,6 +234,7 @@
   max-height: 40vh !important;
   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
   border-radius: 18px;
+  display: none;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -508,8 +521,8 @@ pre[class*=language-]:after, pre[class*=language-]:before {
   display: none;
 }
 .notion-spacer {
-  width: -webkit-calc(min(20px, 4vw)) !important;
-  width: calc(min(20px, 4vw)) !important;
+  width: -webkit-calc(min(15px, 4vw)) !important;
+  width: calc(min(15px, 4vw)) !important;
 }
 svg.notion-page-icon {
   fill: #fff;
@@ -522,6 +535,33 @@ svg.notion-page-icon {
 }
 .notion-collection-card-body {
   padding: 5px 15px 0px 15px;
+}
+.notion-property-multi_select-item, .notion-property-select-item {
+  height: 20px;
+}
+.notion-item-default {
+  background-color: #E3BC00;
+  color: #fff;
+}
+.notion-item-pink {
+  background-color: rgb(219 0 128);
+  color: #fff;
+}
+.notion-item-blue {
+  background-color: rgb(6 140 255);
+  color: #fff;
+}
+.notion-item-orange {
+  background-color: rgb(255 97 0);
+  color: #fff;
+}
+.notion-item-green {
+  background-color: rgb(3 171 136);
+  color: #fff;
+}
+.notion-item-red {
+  background-color: rgb(255 0 26);
+  color: #fff;
 }
 @media (max-width: 768px) {
   .notion-page-cover {
