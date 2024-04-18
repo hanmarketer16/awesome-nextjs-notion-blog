@@ -465,8 +465,8 @@ pre[class*=language-]:after, pre[class*=language-]:before {
   margin-right: 0;
 }
 .notion-text {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 .notion-page.notion-page-has-cover.notion-page-has-icon.notion-page-has-text-icon.notion-full-page.index-page {
   padding-top: 30px;
