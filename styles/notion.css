@@ -189,6 +189,13 @@
 .notion-title {
   display: block;
   text-align: center;
+  margin-bottom: 5px;
+}
+
+.notion-collection {
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .notion-collection-row-property .notion-property {
