@@ -454,3 +454,14 @@ pre[class*=language-]:after, pre[class*=language-]:before {
   font-weight: bold;
   font-size: 25px;
 }
+
+
+.notion-page-content-inner {
+  text-align: center;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.notion-text.notion-block-b71a93e6f4cc41beb44440f5bfd2820e {
+  margin: 0;
+  padding: 0;
+}
