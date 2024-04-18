@@ -503,6 +503,7 @@ pre[class*=language-]:after, pre[class*=language-]:before {
 }
 .notion-column {
   gap: 6px;
+  width: 100% !important;
 }
 .notion-hr,
 .notion-blank,
@@ -546,6 +547,13 @@ svg.notion-page-icon {
 .notion-property-multi_select-item, .notion-property-select-item {
   height: 20px;
 }
+.notion-page-link.notion-block-41b32dcfda184e5c82659c197bafc232 {
+  margin: 0 !important;
+  background: #0170dc;
+  padding: 20px 10px;
+  border-radius: 5px;
+  color: #fff;
+}
 .notion-item-default {
   background-color: #E3BC00;
   color: #fff;
@@ -570,6 +578,7 @@ svg.notion-page-icon {
   background-color: rgb(255 0 26);
   color: #fff;
 }
+
 @media (max-width: 768px) {
   .notion-page-cover {
     height: 20vh !important;
