@@ -81,6 +81,7 @@
 }
 .notion-page-title-text {
   border-bottom: none !important;
+  text-align: start;
 }
 .notion-gallery-grid .notion-page-title-text {
   font-size: 1.3em;
@@ -589,10 +590,15 @@ svg.notion-page-icon {
   .notion-page-content-inner .notion-row .notion-column {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: min-content;
   }
   .notion-h1, .notion-h2, .notion-h3 {
     margin-bottom: 0;
     grid-column: span 2;
+  }
+  .notion-column .notion-page-link {
+    grid-column: span 1;
+    overflow: auto;
   }
   .notion-page-cover {
     height: 20vh !important;
