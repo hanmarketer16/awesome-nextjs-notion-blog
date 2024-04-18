@@ -210,10 +210,11 @@
 .notion-page-cover {
   max-width: 1200px;
   object-position: center 77% !important;
-  height: 50vh !important;
-  min-height: 50vh !important;
-  max-height: 50vh !important;
+  height: 40vh !important;
+  min-height: 40vh !important;
+  max-height: 40vh !important;
   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
+  border-radius: 18px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -505,6 +506,9 @@ pre[class*=language-]:after, pre[class*=language-]:before {
 }
 svg.notion-page-icon {
   fill: #fff;
+}
+.notion-page-scroller {
+  padding-top: 10px;
 }
 @media (max-width: 768px) {
   .notion-page-cover {
