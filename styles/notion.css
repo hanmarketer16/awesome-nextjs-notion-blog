@@ -454,6 +454,11 @@ pre[class*=language-]:after, pre[class*=language-]:before {
 .notion-text {
   margin: 0 !important;
   padding: 0 !important;
+  text-align: start;
+}
+.notion-list-disc {
+  width: 100%;
+  text-align: start;
 }
 .notion-page.notion-page-has-cover.notion-page-has-icon.notion-page-has-text-icon.notion-full-page.index-page {
   padding-top: 30px;
@@ -538,7 +543,9 @@ svg.notion-page-icon {
   background-color: rgb(255 0 26);
   color: #fff;
 }
-
+.notion-page.notion-page-no-cover.notion-page-has-icon.notion-page-has-text-icon.notion-full-page .notion-collection-row {
+  display: none;
+}
 @media only screen and (max-width: 1200px) {
   .notion-gallery-grid {
 
