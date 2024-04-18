@@ -471,10 +471,27 @@ pre[class*=language-]:after, pre[class*=language-]:before {
 .notion-page.notion-page-has-cover.notion-page-has-icon.notion-page-has-text-icon.notion-full-page.index-page {
   padding-top: 30px;
 }
-.notion-column.notion-block-d82f8aae08ed4526b5dd5e705ff0ae93 {
-
+.notion-column {
+  gap: 6px;
 }
-.notion-hr {
+.notion-hr,
+.notion-blank {
+  display: none;
+}
+.notion-page-link {
+  margin: 0 !important;
+  background: #007e0f;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+.notion-page-link:hover {
+  background: #025c0c;
+}
+.notion-row {
+  padding: 0 5px;
+  margin-top: 1.5rem;
+}
+.notion-collection .notion-collection-header .notion-collection-header-title {
   display: none;
 }
 @media (max-width: 768px) {
