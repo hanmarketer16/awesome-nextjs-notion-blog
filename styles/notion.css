@@ -489,7 +489,7 @@ pre[class*=language-]:after, pre[class*=language-]:before {
 .notion-hash-link {
   display: none;
 }
-.notion-page-link {
+.notion-column.notion-block-49d5166aa8fa4b25bcb2a5c06c0a2065 .notion-page-link {
   margin: 0 !important;
   background: #0170dc;
   padding: 20px 10px;
