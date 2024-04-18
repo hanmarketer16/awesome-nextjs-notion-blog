@@ -562,6 +562,9 @@ svg.notion-page-icon {
 .notion-list-item.notion-page-link .notion-list-item-title .notion-property.notion-property-title .notion-page-link {
   color: #fff;
 }
+.notion-text.notion-block-b71a93e6f4cc41beb44440f5bfd2820e {
+  text-align: center;
+}
 @media only screen and (max-width: 1200px) {
   .notion-gallery-grid {
 
