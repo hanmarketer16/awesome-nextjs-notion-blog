@@ -485,13 +485,13 @@ pre[class*=language-]:after, pre[class*=language-]:before {
 }
 .notion-page-link {
   margin: 0 !important;
-  background: #007e0f;
+  background: #0170dc;
   padding: 20px 10px;
   border-radius: 5px;
   color: #fff;
 }
 .notion-page-link:hover {
-  background: #025c0c;
+  background: #00509e;
 }
 .notion-row {
   padding: 0 5px;
