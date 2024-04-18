@@ -546,6 +546,9 @@ svg.notion-page-icon {
 .notion-page.notion-page-no-cover.notion-page-has-icon.notion-page-has-text-icon.notion-full-page .notion-collection-row {
   display: none;
 }
+.notion-list-body, .notion-list-item {
+  gap: 5px;
+}
 .notion-list-item.notion-page-link {
   margin: 0 !important;
   background: #0170dc;
@@ -553,7 +556,7 @@ svg.notion-page-icon {
   border-radius: 5px;
   color: #fff;
 }
-.notion-list-item.notion-page-link {
+.notion-list-item.notion-page-link:hover {
   background: #00509e;
 }
 .notion-list-item.notion-page-link .notion-list-item-title .notion-property.notion-property-title .notion-page-link {
