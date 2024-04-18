@@ -580,7 +580,15 @@ svg.notion-page-icon {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
+  .notion-page-content-inner .notion-row .notion-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .notion-h1, .notion-h2, .notion-h3 {
+    margin-bottom: 0;
+    grid-column: span 2;
+  }
   .notion-page-cover {
     height: 20vh !important;
     min-height: 20vh !important;
