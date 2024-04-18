@@ -161,53 +161,6 @@
 .notion-hr {
   margin: 2em 0;
 }
-@media only screen and (max-width: 1200px) {
-  .notion-gallery-grid {
-
-  }
-}
-@media only screen and (max-width: 920px) {
-  .index-page.notion-page {
-    padding-left: 2vw;
-    padding-right: 2vw;
-  }
-  .notion-gallery-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-gap: 2vmin;
-    gap: 2vmin;
-  }
-}
-
-@media only screen and (max-width: 720px) {
-  .notion-page {
-    padding-left: 2vw;
-    padding-right: 2vw;
-  }
-  .notion-gallery-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .notion-search-button {
-    display: none !important;
-  }
-  .notion-gallery-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-gap: 2vmin;
-    gap: 2vmin;
-  }
-}
-@media only screen and (max-width: 357px) {
-  .notion-gallery-grid {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    grid-gap: 2vmin;
-    gap: 2vmin;
-  }
-}
-@media only screen and (max-width: 400px) {
-
-}
 
 .notion .notion-page-icon-cover {
   margin-left: auto;
@@ -586,7 +539,43 @@ svg.notion-page-icon {
   color: #fff;
 }
 
+@media only screen and (max-width: 1200px) {
+  .notion-gallery-grid {
+
+  }
+}
+@media only screen and (max-width: 920px) {
+  .index-page.notion-page {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .notion-gallery-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 2vmin;
+    gap: 2vmin;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .notion-page {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .notion-gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media only screen and (max-width: 400px) {
+
+}
 @media (max-width: 640px) {
+  .notion-search-button {
+    display: none !important;
+  }
+  .notion-gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 2vmin;
+    gap: 2vmin;
+  }
   .notion-page-content-inner .notion-row .notion-column {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -605,5 +594,16 @@ svg.notion-page-icon {
     min-height: 20vh !important;
     max-height: 20vh !important;
     object-position: bottom !important;
+  }
+}
+@media only screen and (max-width: 368px) {
+  .notion-column .notion-page-link {
+    grid-column: span 2;
+    overflow: auto;
+  }
+  .notion-gallery-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-gap: 2vmin;
+    gap: 2vmin;
   }
 }
