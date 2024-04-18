@@ -209,7 +209,10 @@
 
 .notion-page-cover {
   max-width: 1200px;
-  border-radius: 24px;
+  object-position: center 77% !important;
+  height: 50vh !important;
+  min-height: 50vh !important;
+  max-height: 50vh !important;
   box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
 }
 
@@ -475,7 +478,8 @@ pre[class*=language-]:after, pre[class*=language-]:before {
   gap: 6px;
 }
 .notion-hr,
-.notion-blank {
+.notion-blank,
+.notion-hash-link {
   display: none;
 }
 .notion-page-link {
@@ -504,9 +508,9 @@ pre[class*=language-]:after, pre[class*=language-]:before {
 }
 @media (max-width: 768px) {
   .notion-page-cover {
-    height: 20vh;
-    min-height: 20vh;
-    max-height: 20vh;
+    height: 20vh !important;
+    min-height: 20vh !important;
+    max-height: 20vh !important;
     object-position: bottom !important;
   }
 }
