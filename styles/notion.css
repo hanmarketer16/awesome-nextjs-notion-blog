@@ -623,13 +623,15 @@ svg.notion-page-icon {
   }
 }
 @media only screen and (max-width: 368px) {
-  .notion-column .notion-page-link {
-    grid-column: span 2;
-    overflow: auto;
-  }
   .notion-gallery-grid {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     grid-gap: 2vmin;
     gap: 2vmin;
+  }
+}
+@media only screen and (max-width: 312px) {
+  .notion-column .notion-page-link {
+    grid-column: span 2;
+    overflow: auto;
   }
 }
