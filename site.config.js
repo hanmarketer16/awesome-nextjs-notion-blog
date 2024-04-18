@@ -7,9 +7,9 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Adem',
-  domain: 'hanz.top',
-  author: 'Han',
+  name: 'Adem Net',
+  domain: 'awesome-nextjs-notion-blog-inky.vercel.app',
+  author: 'Adem Net',
 
   // open graph metadata (optional)
   description: '',
