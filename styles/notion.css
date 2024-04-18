@@ -546,6 +546,19 @@ svg.notion-page-icon {
 .notion-page.notion-page-no-cover.notion-page-has-icon.notion-page-has-text-icon.notion-full-page .notion-collection-row {
   display: none;
 }
+.notion-list-item.notion-page-link {
+  margin: 0 !important;
+  background: #0170dc;
+  padding: 20px 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+.notion-list-item.notion-page-link {
+  background: #00509e;
+}
+.notion-list-item.notion-page-link .notion-list-item-title .notion-property.notion-property-title .notion-page-link {
+  color: #fff;
+}
 @media only screen and (max-width: 1200px) {
   .notion-gallery-grid {
 
