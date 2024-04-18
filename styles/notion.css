@@ -193,10 +193,16 @@
   .notion-gallery-grid {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     grid-gap: 2vmin;
-    gap: 2vmin;
+    gap: 3vmin;
   }
 }
-
+@media only screen and (max-width: 578px) {
+  .notion-gallery-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-gap: 2vmin;
+    gap: 3vmin;
+  }
+}
 @media only screen and (max-width: 400px) {
 }
 
@@ -532,6 +538,7 @@ svg.notion-page-icon {
 }
 .notion-gallery {
   margin-top: 1rem;
+  width: 100%;
 }
 .notion-collection-card-body {
   padding: 5px 15px 0px 15px;
