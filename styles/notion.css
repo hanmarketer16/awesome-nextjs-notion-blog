@@ -18,7 +18,7 @@
 }
 
 .index-page {
-  --notion-max-width: 720px;
+  --notion-max-width: 1100px;
 }
 
 .notion-text {
@@ -499,12 +499,12 @@ pre[class*=language-]:after, pre[class*=language-]:before {
 .notion-collection .notion-collection-header {
   display: none;
 }
-.index-page {
-  --notion-max-width: 1100px !important;
-}
 .notion-spacer {
   width: -webkit-calc(min(20px, 4vw)) !important;
   width: calc(min(20px, 4vw)) !important;
+}
+svg.notion-page-icon {
+  fill: #fff;
 }
 @media (max-width: 768px) {
   .notion-page-cover {
