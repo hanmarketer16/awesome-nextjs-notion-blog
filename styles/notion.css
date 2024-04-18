@@ -483,6 +483,7 @@ pre[class*=language-]:after, pre[class*=language-]:before {
   background: #007e0f;
   padding: 20px 10px;
   border-radius: 5px;
+  color: #fff;
 }
 .notion-page-link:hover {
   background: #025c0c;
@@ -491,7 +492,7 @@ pre[class*=language-]:after, pre[class*=language-]:before {
   padding: 0 5px;
   margin-top: 1.5rem;
 }
-.notion-collection .notion-collection-header .notion-collection-header-title {
+.notion-collection .notion-collection-header {
   display: none;
 }
 @media (max-width: 768px) {
