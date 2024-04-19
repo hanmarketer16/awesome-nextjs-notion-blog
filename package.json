@@ -24,7 +24,8 @@
     "test:lint": "eslint .",
     "test:prettier": "prettier '**/*.{js,jsx,ts,tsx}' --check",
     "posttest": "run-s build",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "vercel-build": "npm install --legacy-peer-deps && npm install notion-client@6.15.6"
   },
   "dependencies": {
     "@google-cloud/firestore": "^6.5.0",
