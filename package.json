@@ -25,7 +25,7 @@
     "test:lint": "eslint .",
     "test:prettier": "prettier '**/*.{js,jsx,ts,tsx}' --check",
     "posttest": "run-s build",
-    "vercel-build": "yarn add patch-package && yarn patch-package && yarn install --force && yarn add notion-client@6.15.6"
+    "vercel-build": "yarn add patch-package && yarn install --force && yarn add notion-client@6.15.6"
   },
   "dependencies": {
     "@google-cloud/firestore": "^6.5.0",
