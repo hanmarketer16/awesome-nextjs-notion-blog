@@ -25,7 +25,8 @@
     "test:prettier": "prettier '**/*.{js,jsx,ts,tsx}' --check",
     "posttest": "run-s build",
     "vercel-build": "yarn add patch-package && yarn install --force && yarn add notion-client@6.15.6 && npm i patch-package --legacy-peer-deps",
-    "postinstall": "patch-package"
+    "postinstall": "npx patch-package"
+
   },
   "dependencies": {
     "@google-cloud/firestore": "^6.5.0",
@@ -58,7 +59,8 @@
     "smoothscroll-polyfill": "^0.4.4",
     "static-tweets": "^0.5.3",
     "swr": "^0.5.5",
-    "use-dark-mode": "^2.3.1"
+    "use-dark-mode": "^2.3.1",
+    "patch-package": "^6.4.7"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^10.1.3",
@@ -80,7 +82,6 @@
     "eslint-plugin-react": "^7.23.1",
     "next-sitemap": "^1.6.203",
     "npm-run-all": "^4.1.5",
-    "patch-package": "^6.4.7",
     "postinstall-postinstall": "^2.1.0",
     "prettier": "^2.0.5",
     "typescript": "^4.1.3"
