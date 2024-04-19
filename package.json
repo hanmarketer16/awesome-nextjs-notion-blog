@@ -7,7 +7,7 @@
   "repository": "transitive-bullshit/nextjs-notion-starter-kit",
   "license": "MIT",
   "engines": {
-    "node": ">=16"
+    "node": ">=20"
   },
   "scripts": {
     "dev": "next dev",
@@ -25,7 +25,7 @@
     "test:prettier": "prettier '**/*.{js,jsx,ts,tsx}' --check",
     "posttest": "run-s build",
     "postinstall": "patch-package",
-    "vercel-build": "npm install --legacy-peer-deps && npm install notion-client@6.15.6"
+    "vercel-build": "npm install --legacy-peer-deps && npm install notion-client@6.15.6 --legacy-peer-deps"
   },
   "dependencies": {
     "@google-cloud/firestore": "^6.5.0",
@@ -65,7 +65,6 @@
     "@types/classnames": "^2.2.10",
     "@types/node": "^14.14.37",
     "@types/node-fetch": "^2.5.9",
-    "@types/react": "^17.0.3",
     "@typescript-eslint/eslint-plugin": "^4.21.0",
     "@typescript-eslint/parser": "^4.21.0",
     "babel-eslint": "^10.0.3",
@@ -85,5 +84,11 @@
     "postinstall-postinstall": "^2.1.0",
     "prettier": "^2.0.5",
     "typescript": "^4.1.3"
+  },
+  "overrides": {
+    "react": "^17.0.2",
+    "react-simple-snackbar": {
+      "react": "^17.0.2"
+    }
   }
 }
