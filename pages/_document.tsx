@@ -60,6 +60,8 @@ export default class MyDocument extends Document {
           {/* Activate dark-mode by default */}
           <body className='dark-mode'>
             <script src='noflash.js' />
+            
+            <section className="menu-bottom"></section>
 
             <Main />
 
